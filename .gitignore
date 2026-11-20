@@ -1,0 +1,35 @@
+# Secrets / env
+.env
+*.key
+*.pem
+*.db
+
+# Python
+__pycache__/
+.venv/
+venv/
+*.pyc
+
+# C / build artifacts
+*.o
+*.obj
+*.exe
+*.out
+/receiver/linux/keyboard_receiver
+
+# Arduino build
+build/
+dist/
+*.hex
+*.elf
+
+# Doxygen output
+docs/doxygen/
+
+# Node / tooling
+node_modules/
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
